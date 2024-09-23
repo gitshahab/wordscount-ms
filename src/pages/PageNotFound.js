@@ -9,7 +9,7 @@ export const PageNotFound = () => {
                 <p data-testid="pnfText" className='text-xl text-gray-900 dark:text-gray-200'>Opps, Page not found!</p>
             </div>
             <div className='flex justify-center my-5'>
-                <img data-testid="pnfImg" className='size-4/5' src={PageNotFoundImg} alt="page not found" />
+                <img className='size-4/5' src={PageNotFoundImg} alt="page not found" />
             </div>
             <div className='flex justify-center my-5'>
             <Link to="/">

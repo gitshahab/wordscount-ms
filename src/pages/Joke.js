@@ -29,7 +29,7 @@ export const Joke = () => {
             <img data-testid="jokeImg" className='size-24 dark:ring-2 ring-white dark:ring-white' src={DownImg} alt="joke" />
         </section>
         <section className='flex justify-center items-center my-5 mx-10'>
-            <p data-testid="jokeText" className='font-semibold text-xl text-gray-900 dark:text-gray-200'>'' {data} ''</p>
+            <p data-testid="jokeText" className='font-semibold text-xl text-gray-900 dark:text-gray-200'>{data}</p>
         </section>
         <section className='flex justify-center items-center my-5'>
             <button data-testid="jokeButton" onClick={fetchJoke} className='rounded-full my-5 px-4 py-2 border border-gray-900 dark:border-gray-200 text-gray-100 bg-blue-700'>Another Joke</button>
