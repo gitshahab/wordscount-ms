@@ -1,7 +1,9 @@
 import PageNotFoundImg from '../assets/404-page-not-found.svg';
 import { Link } from "react-router-dom";
+import { useTitle } from '../hooks/useTitle';
 
 export const PageNotFound = () => {
+    useTitle("PageNotFound");
   return (
     <main className='min-h-screen'>
         <section>

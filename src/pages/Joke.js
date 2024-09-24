@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Title } from './components/Title';
 import DownImg from "../assets/down-joke.webp";
+import { useTitle } from '../hooks/useTitle';
 
 export const Joke = () => {
     const [ data, setData ] = useState("");
-
+    useTitle("Joke");
     
     const fetchJoke = async () => {
         try {
